@@ -1,0 +1,26 @@
+venv
+
+all projects same packages
+
+A > flask 2
+B flask 3
+
+with venv
+
+pip install flask sqlalchemy pymysql PyPDF2 python-docx
+
+1- step's -setup
+2- data connection
+
+CREATE TABLE raw sql
+
+
+
+1. Clone the repository
+2. Create a .env file
+3. Add your OpenAI API key:
+   OPENAI_API_KEY=your_api_key_here
+4. Install dependencies:
+   pip install -r requirements.txt
+5. Run:
+   python app.py
