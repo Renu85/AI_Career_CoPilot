@@ -1,7 +1,12 @@
 from dotenv import load_dotenv
 import os
 
+# Load .env file
 load_dotenv()
 
-print("DATABASE_URL =", os.getenv("DATABASE_URL"))
-print("OPENAI_API_KEY =", os.getenv("OPENAI_API_KEY"))
+# Read environment variables
+database_url = os.getenv("DATABASE_URL")
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
+print("DATABASE_URL =", database_url)
+print("OPENAI_API_KEY =", openai_api_key)
